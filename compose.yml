@@ -20,7 +20,7 @@ services:
       - internal
 
   badge:
-    image: ghcr.io/xampprocky/tokei_rs
+    image: ghcr.io/3arthqu4ke/tokei_rs
     environment:
       - RUST_LOG=debug
     networks:
