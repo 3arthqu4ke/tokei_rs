@@ -1,6 +1,6 @@
 # tokei.rs badge service
 
-tokei.rs has support for badges. For example 
+tokei.rs has support for badges. For example
 [![](https://tokei.rs/b1/github/XAMPPRocky/tokei_rs)](https://github.com/XAMPPRocky/tokei_rs).
 
 ```
