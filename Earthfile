@@ -38,6 +38,7 @@ docker:
     FROM ubuntu:focal
     EXPOSE 8000
     COPY +build/tokei_rs tokei_rs
+    RUN apt-get update && apt-get upgrade -y && apt-get install -y git
     ENTRYPOINT ["./tokei_rs"]
     SAVE IMAGE --push ghcr.io/3arthqu4ke/tokei_rs
 
